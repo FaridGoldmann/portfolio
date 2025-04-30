@@ -1,15 +1,15 @@
 document.addEventListener("keydown",(event) => {
     switch(event.keyCode){
         case 46: //DEL Key
-            document.location = "about.html";
+            document.location = "/about/";
             event.preventDefault();
             return false;
         case 112: //F1
-            document.location = "index.html";
+            document.location = "/";
             event.preventDefault();
             return false;
         case 113: //F2
-            document.location = "work.html";
+            document.location = "/work/";
             event.preventDefault();
             return false;
         default:
