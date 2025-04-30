@@ -59,18 +59,21 @@ p   {
 }
 h1 {
     max-width: 1440px;
+    line-height: 130%;
 }
 h2  {
     color: #FCFCFC;
     margin: 2rem auto 1rem auto;
     max-width: 40rem;
     width: 100%;
+    line-height: 130%;
 }
 h3  {
     color: #FCFCFC;
     margin: 1.5rem auto 0.75rem auto;
     max-width: 40rem;
     width: 100%;
+    line-height: 130%;
 }
 ol  {
     line-height: 130%;
@@ -196,6 +199,11 @@ a.project-thumb  {
 }
 .about-info {
     min-width: 55%;
+}
+.footer {
+    margin: 3rem auto;
+    line-height: 130%;
+    text-align: center;
 }
 @media screen and (max-width:768px) {
     ol  {
